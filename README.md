@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 3. Run the notebook:
 ```bash
-jupyter notebook notebooks/Content\ Performance\ -\ Word\ Count.ipynb
+jupyter notebook notebooks/content_performance_word_count.ipynb
 ```
 
 ### Customization
@@ -94,18 +94,18 @@ All input columns plus:
 
 ## Examples
 
-### Sample Input Data
+### Sample Input Data (fake data)
 ```
-page_location: https://news.wm.edu/2025/04/08/william-mary-co...
-page_title: William & Mary counted among 'New Ivies'
+page_location: https://en.wikipedia.org/wiki/Ontario_Motor_Speedway
+page_title: Ontario Motor Speedway - Wikipedia
 percent_scrolled: 75
 scrolls: 2339
 ```
 
 ### Sample Output
 ```
-page_location: https://news.wm.edu/2025/04/08/william-mary-co...
-page_title: William & Mary counted among 'New Ivies'
+page_location: https://en.wikipedia.org/wiki/Ontario_Motor_Speedway
+page_title: Ontario Motor Speedway - Wikipedia
 percent_scrolled: 75
 scrolls: 2339
 words: 724
